@@ -67,7 +67,12 @@ To forecast AAPL stock prices by uncovering trend and seasonal components, and p
 
 ---
 
-
+## How to Run
+1. Clone the repository.
+2. Install required packages:
+   ```bash
+   pip install yfinance prophet matplotlib
+---
 
 
 
