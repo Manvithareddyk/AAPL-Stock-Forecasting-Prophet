@@ -42,14 +42,23 @@ To forecast AAPL stock prices by uncovering trend and seasonal components, and p
 
 ---
 
-## 📁 Files
+## Structure
 
-| File Name | Description |
-|-----------|-------------|
-| `Time_Series_Analysis_AAPL_Prophet.ipynb` | Complete Jupyter Notebook with code, visualizations, and explanations |
-| `README.md` | Project documentation (this file) |
+```
+AAPL-Stock-Forecasting-Prophet/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+├── src/
+│   ├── raw_data_download.py
+│   ├── processed_data.py
+│   └── forecasting.py
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
 
----
 
 ## 🔮 Results
 
@@ -68,11 +77,10 @@ To forecast AAPL stock prices by uncovering trend and seasonal components, and p
 ---
 
 ## How to Run
-1. Clone the repository.
-2. Install required packages:
-   ```bash
-   pip install yfinance prophet matplotlib
+
+1. Run `raw_data_download.py` to download AAPL stock data.
+2. Run `processed_data.py` to clean and process it.
+3. Run `forecasting.py` to generate and visualize the forecast.
+
 ---
-
-
 
