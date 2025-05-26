@@ -3,7 +3,11 @@
 This project demonstrates time series analysis and forecasting of Apple Inc. (AAPL) stock prices using **Facebook Prophet**. It covers the complete data pipeline from fetching real-time stock data to visualizing future trends, making it highly relevant.
 
 ---
+## Problem
 
+Predicting stock prices is a challenging task due to the volatile and noisy nature of financial markets. Accurate forecasts can help investors and traders make informed decisions, optimize their portfolios, and manage risks. This project focuses on forecasting the closing prices of Apple Inc. (AAPL) stock using historical market data to provide insights into future price movements.
+
+---
 ## 🚀 Objective
 
 To forecast AAPL stock prices by uncovering trend and seasonal components, and present a clear, data-driven financial outlook.
@@ -12,6 +16,20 @@ To forecast AAPL stock prices by uncovering trend and seasonal components, and p
 ## Project Overview
 
 This project forecasts the future stock prices of Apple Inc. (AAPL) using historical market data. It downloads stock data, processes it, and applies the **Prophet** time series forecasting model to predict future prices. The project also visualizes the forecast and its components to help understand trends and seasonal patterns in the stock price. This helps investors and analysts make more informed decisions based on predicted market behavior.
+
+## Approach
+
+This project uses Facebook Prophet, a powerful time series forecasting tool developed by Facebook, designed to handle seasonality and trends in data effectively. The approach includes:
+
+- Collecting historical stock price data for AAPL using the `yfinance` API.
+- Preprocessing the data to fit the format required by Prophet.
+- Training the Prophet model on past closing prices to capture underlying trends and seasonality.
+- Generating forecasts for future stock prices.
+- Visualizing the forecast alongside actual data to assess model performance.
+
+The goal is to provide a baseline forecast model that can be further improved with additional features, model tuning, and validation metrics.
+
+---
 
 ## About Prophet
 
@@ -73,6 +91,9 @@ AAPL-Stock-Forecasting-Prophet/
 ├── requirements.txt
 └── LICENSE
 ```
+## Demo Notebook
+
+A step-by-step demonstration of data download, processing, forecasting, and visualization using Prophet can be found in the [Jupyter Notebook here](notebooks/Time_Series_Analysis_AAPL_Prophet.ipynb).
 
 
 ## 🔮 Results
@@ -98,8 +119,5 @@ AAPL-Stock-Forecasting-Prophet/
 3. Run `forecasting.py` to generate and visualize the forecast.
 
 ---
-## Demo Notebook
-
-A step-by-step demonstration of data download, processing, forecasting, and visualization using Prophet can be found in the [Jupyter Notebook here](notebooks/Time_Series_Analysis_AAPL_Prophet.ipynb).
 
 
