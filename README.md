@@ -96,5 +96,6 @@ AAPL-Stock-Forecasting-Prophet/
 ---
 ## Demo Notebook
 
-A step-by-step demonstration of data download, processing, forecasting, and visualization using Prophet can be found in the [notebooks/Time_Series_Analysis_AAPL_Prophet.ipynb].
+A step-by-step demonstration of data download, processing, forecasting, and visualization using Prophet can be found in the [Jupyter Notebook here](notebooks/Time_Series_Analysis_AAPL_Prophet.ipynb).
+
 
