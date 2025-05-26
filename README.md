@@ -9,6 +9,17 @@ This project demonstrates time series analysis and forecasting of Apple Inc. (AA
 To forecast AAPL stock prices by uncovering trend and seasonal components, and present a clear, data-driven financial outlook.
 
 ---
+## About Prophet
+
+[Prophet](https://facebook.github.io/prophet/) is an open-source forecasting tool developed by Facebook designed for producing high-quality forecasts for time series data. It handles seasonality, holidays, and missing data effectively, and works well with daily stock price data like Apple’s historical prices.
+
+We chose Prophet because it provides:
+
+- Easy-to-use API for rapid prototyping
+- Robust handling of trends and seasonality without extensive manual tuning
+- Strong performance on daily financial time series forecasting tasks
+
+
 
 ## 🛠️ Technologies Used
 
@@ -83,4 +94,7 @@ AAPL-Stock-Forecasting-Prophet/
 3. Run `forecasting.py` to generate and visualize the forecast.
 
 ---
+## Demo Notebook
+
+A step-by-step demonstration of data download, processing, forecasting, and visualization using Prophet can be found in the [notebooks/Time_Series_Analysis_AAPL_Prophet.ipynb].
 
